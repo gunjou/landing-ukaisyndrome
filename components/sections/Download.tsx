@@ -33,8 +33,10 @@ export default function Download() {
           {/* BUTTONS */}
           <div className="flex flex-col md:flex-row gap-4 md:gap-6 w-full md:w-auto justify-center md:justify-start">
             {/* PLAYSTORE */}
-            <button
-              onClick={() => handleNotAvailable("Google Play")}
+            <a
+              href="https://play.google.com/store/apps/details?id=com.ukaisyndrome.app"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-3 bg-black text-white px-5 py-3 rounded-2xl shadow-md hover:shadow-xl transition"
             >
               <FaGooglePlay className="text-green-500 text-2xl" />
@@ -42,7 +44,7 @@ export default function Download() {
                 <span className="text-[10px]">GET IT ON</span>
                 <span className="font-semibold text-sm">Google Play</span>
               </div>
-            </button>
+            </a>
 
             {/* APP STORE */}
             <button
@@ -57,7 +59,7 @@ export default function Download() {
             </button>
 
             {/* APK */}
-            <a
+            {/* <a
               href="https://drive.google.com/file/d/1VdDzp8K9p7GBmjgaNynCx8YCtKhbvKiI/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
@@ -68,7 +70,7 @@ export default function Download() {
                 <span className="text-[10px]">Direct Install</span>
                 <span className="font-semibold text-sm">Download APK</span>
               </div>
-            </a>
+            </a> */}
           </div>
         </div>
 
