@@ -77,13 +77,14 @@ export default function Download() {
         </div>
 
         {/* RIGHT IMAGE */}
-        <div className="flex justify-center">
-          <img
-            src={`${CDN_ASSET_URL}/mockup_ukai.png`}
-            alt="Tampilan Aplikasi Syndrome UKAI"
-            loading="lazy"
-            className="max-w-[800px] object-contain transform hover:scale-105 transition duration-300"
-          />
+        <div className="flex justify-center px-4">
+          <div className="w-full max-w-[800px]">
+            <img
+              src={`${CDN_ASSET_URL}/mockup_ukai.png`}
+              alt="Tampilan Aplikasi Syndrome UKAI"
+              className="w-full h-auto object-contain transform hover:scale-105 transition duration-300"
+            />
+          </div>
         </div>
       </div>
     </section>
