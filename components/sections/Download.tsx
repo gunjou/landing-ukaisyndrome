@@ -47,8 +47,10 @@ export default function Download() {
             </a>
 
             {/* APP STORE */}
-            <button
-              onClick={() => handleNotAvailable("App Store")}
+            <a
+              href="https://apps.apple.com/app/syndrome-ukai/id6776521389"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-3 bg-black text-white px-5 py-3 rounded-2xl shadow-md hover:shadow-xl transition"
             >
               <FaApple className="text-white text-2xl" />
@@ -56,7 +58,7 @@ export default function Download() {
                 <span className="text-[10px]">Download on the</span>
                 <span className="font-semibold text-sm">App Store</span>
               </div>
-            </button>
+            </a>
 
             {/* APK */}
             {/* <a
@@ -77,10 +79,10 @@ export default function Download() {
         {/* RIGHT IMAGE */}
         <div className="flex justify-center">
           <img
-            src={`${CDN_ASSET_URL}/screenshot.png`}
+            src={`${CDN_ASSET_URL}/mockup_ukai.png`}
             alt="Tampilan Aplikasi Syndrome UKAI"
             loading="lazy"
-            className="rounded-2xl shadow-2xl max-w-[180px] object-contain transform hover:scale-105 transition duration-300"
+            className="object-contain transform hover:scale-105 transition duration-300"
           />
         </div>
       </div>
