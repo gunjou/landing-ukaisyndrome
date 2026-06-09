@@ -77,12 +77,11 @@ export default function Download() {
         </div>
 
         {/* RIGHT IMAGE */}
-        <div className="flex justify-center px-4">
+        <div className="img-container-wrapper">
           <img
             src={`${CDN_ASSET_URL}/mockup_ukai.png`}
             alt="Tampilan Aplikasi Syndrome UKAI"
-            style={{ width: "100%", maxWidth: "800px", height: "auto" }}
-            className="transform hover:scale-105 transition duration-300"
+            className="fixed-image-size transform hover:scale-105 transition duration-300"
           />
         </div>
       </div>
