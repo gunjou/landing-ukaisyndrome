@@ -82,7 +82,7 @@ export default function Download() {
             src={`${CDN_ASSET_URL}/mockup_ukai.png`}
             alt="Tampilan Aplikasi Syndrome UKAI"
             loading="lazy"
-            className="object-contain transform hover:scale-105 transition duration-300"
+            className="max-w-[800px] object-contain transform hover:scale-105 transition duration-300"
           />
         </div>
       </div>
